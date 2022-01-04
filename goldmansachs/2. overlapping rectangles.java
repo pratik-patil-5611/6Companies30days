@@ -1,3 +1,9 @@
+/*
+Approach-
+1. check if one rectangle is to the left of other if yes, no rectangles will overlap.
+2. similarly check if one rectangle is to the bottom of other if yes, no rectangles will overlap.
+3. in all cases rectangles will overlap.
+*/
 class Solution {
     int doOverlap(int L1[], int R1[], int L2[], int R2[]) {
         // code here

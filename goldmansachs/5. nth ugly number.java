@@ -1,3 +1,13 @@
+/*
+Approach-
+1. first element of sequence will be 1.
+2. the next element we will get by multiplying minimum character with 2,3 and 5.
+3. iterate from 1 index to last.
+4. find minimum of next number multiplied by 2,3 and 5.
+5. minimum will be the next number in sequence.
+6. check which number is selected and set next values of 2,3 and 5 multiple.
+7. element at n-1th index will be answer.
+*/
 class Solution {
     /* Function to get the nth ugly number*/
     long getNthUglyNo(int n) {

@@ -1,3 +1,12 @@
+/*
+Approach- 
+1. initialize count to 1 as first character count will be 1.
+2. add first character to ans.
+3. iterate from first index to last.
+4. if current character is equal to previous increment count of current character.
+5. else add count of current character and next unique character to ans. set count to 1.
+6. ans string will store resultant string.
+*/
 class GfG
  {
 	String encode(String str)
